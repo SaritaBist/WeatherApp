@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+body{
+  
+    font-family: "Gowun dowum",sans-serif;
+    font-size: 22px;
+    background-image: radial-gradient(  
+    circle,
+    rgba(5, 8, 114, 1),
+    rgba(7, 3, 53, 1));
+    width:100%;
+    height:auto;
+    color: #defaf9;
+}
+
+.weather_image
+{
+    width:150px;
+   
+}
+.weather_search>.weather_search
+{
+ 
+ 
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 16px;
+  color:white;
+  margin:10px 0;
+  padding:10px 20px;
+ 
+
+}
+.weather_search::placeholder
+{
+  color: #defaf9;
+}
+
+.weather_forecast_item {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    height:250px;
+    margin:5px 6px;
+    box-sizing: border-box;
+   
+   
+  
+  }
+  .weather_forecast_icon {
+    max-width: 50%;
+    align-self: center;
+  }
+  .weather_indicator::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.weather_indicator_humidity::before
+{
+    background-image: url("../images/humidity.png");
+}
+.weather_indicator_wind::before {
+    background-image: url(../images/wind.png);
+  }
+  
+  .weather_indicator_pressure::before {
+    background-image: url(../images/pressure.png);
+  }
+  .value
+  {
+    font-size: 18px;
+  }
+  

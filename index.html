@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app Using Bootstarp</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <div class="container">
+            
+            <div class="row weather_search ">
+              
+                <input type="search" class="weather_search mt-10 col-12" list="suggestion" placeholder="Enter Your City Name">
+               <datalist id="suggestion"></datalist>
+               </input>
+            </div>
+        
+        
+          <div class="row weather_today mt-10">
+            <div class=" col-xs-4 col-5 weather_details">
+                <h2 class="weather_city">City</h2>
+                <p class="weather_day h-5">Day</p>
+                <div class="weather_current">
+                    <p class="weather_indicator weather_indicator_humidity "><span class="value">50</span>%</p>
+                    <p class="weather_indicator weather_indicator_wind"><span class="value">North 0</span>m/s</p>
+                    <p class="weather_indicator weather_indicator_pressure"><span class="value">1011</span>hpa</p>
+                </div>
+            </div>
+            <div class=" col-xs-4 col-3">
+                <img src="images/clear-sky.png" alt="clear image" class="weather_image">
+            </div>
+            <div class=" col-xs-4 col-4 text-end">
+                <div class="wether_temprature"><span class="value">+45</span>&deg;C</div>
+            </div>
+         </div>
+
+          <div class="row  weather_forecast">
+           
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg ">
+                <div class=" card weather_forecast_item text-center">
+                    <img src="images/clear-sky.png" alt="clear-sky" class="weather_forecast_icon">
+                    <h3 class="weathe_forecast_day">Day</h3>
+                    <p class="weather_forecast_temprature"><span class="value">+37</span>&deg;C</p>
+                </div>
+             </div>
+                
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg">
+                <div class=" card weather_forecast_item text-center">
+                    <img src="images/clear-sky.png" alt="clear-sky" class="weather_forecast_icon">
+                    <h3 class="weathe_forecast_day">Day</h3>
+                    <p class="weather_forecast_temprature"><span class="value">+37</span>&deg;C</p>
+                </div>
+             </div>  
+            
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg ">
+                <div class=" card weather_forecast_item text-center">
+                    <img src="images/clear-sky.png" alt="clear-sky" class="weather_forecast_icon">
+                    <h3 class="weathe_forecast_day">Day</h3>
+                    <p class="weather_forecast_temprature"><span class="value">+37</span>&deg;C</p>
+                </div>
+             </div>  
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg ">
+                <div class=" card weather_forecast_item text-center">
+                    <img src="images/clear-sky.png" alt="clear-sky" class="weather_forecast_icon">
+                    <h3 class="weathe_forecast_day">Day</h3>
+                    <p class="weather_forecast_temprature"><span class="value">+37</span>&deg;C</p>
+                </div>
+             </div>
+             
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg ">
+                <div class=" card weather_forecast_item text-center">
+                    <img src="images/clear-sky.png" alt="clear-sky" class="weather_forecast_icon">
+                    <h3 class="weathe_forecast_day">Day</h3>
+                    <p class="weather_forecast_temprature"><span class="value">+37</span>&deg;C</p>
+                </div>
+             </div>  
+
+               
+          
+          </div>
+
+         </div>
+        
+    
+    <script src="Script.js"></script>
+</body>
+</html>
